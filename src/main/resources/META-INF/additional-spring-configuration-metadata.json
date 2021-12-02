@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "shop.properties",
+      "type": "java.lang.String",
+      "description": "Description for shop.properties."
+    },
+    {
+      "name": "shop.properties.prodicts.product.title",
+      "type": "java.lang.String",
+      "description": "Description for shop.properties.prodicts.product.title."
+    },
+    {
+      "name": "shop.properties.prodicts.title",
+      "type": "java.lang.String",
+      "description": "Description for shop.properties.prodicts.title."
+    },
+    {
+      "name": "shop.properties.products",
+      "type": "java.lang.String",
+      "description": "Description for shop.properties.products."
+    },
+    {
+      "name": "shop.properties.products.-product3.id",
+      "type": "java.lang.String",
+      "description": "Description for shop.properties.products.-product3.id."
+    }
+  ] }
