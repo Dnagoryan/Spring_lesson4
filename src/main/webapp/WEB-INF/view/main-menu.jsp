@@ -1,4 +1,4 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: 79160
@@ -15,20 +15,18 @@
 <h1>List product</h1>
 <br>
 <table>
-    <c:forEach items="${products}" var="product">
-        <tr>
-            <td><c:out value="${product.id}"/> </td>
-            <td><c:out value="${product.title}"/> </td>
-            <td><c:out value="${product.price}"/> </td>
+<%--    <c:forEach items="${products}" var="product">--%>
+<%--            <li>  ${products}     </li>--%>
+<%--            </c:forEach>--%>
 
-        </tr>
+    <c:forEach items="${products}" var="product">
+          ${products}
     </c:forEach>
 
 </table>
 <br>
-<c:url var="addUrl" value="/shop/add">
 
-</c:url>
-<a href="${addUrl}">Add Product</a>
+<a href="${"/add"}">Add Product</a>
+
 </body>
 </html>
